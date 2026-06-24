@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>To Do List</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/819/819860.png" type="image/x-icon">
+    <!-- 웹 글꼴 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+    <!-- 디자인 -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/study.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <!-- 1행(로고, 검색, 메뉴) -->
+            <div class="top">
+                <h1><a href="#">To Do</a></h1>
+                <div class="right">
+                    <a href="#" class="search_btn"><img src="./images/search_btn.svg" alt="검색"></a>
+                    <a href="#" class="menu_btn"><img src="./images/menu_btn.svg" alt="메뉴"></a>
+                </div><!-- e:right -->
+            </div><!-- e:top -->
+            <!-- 2행(전체, 오늘 보기 메뉴) -->
+            <nav>
+                <a href="#" class="all active">All <span class="num">(3)</span></a>
+                <a href="#" class="today">Today <span class="num">(0)</span></a>
+            </nav>
+        </header>
+        <main>
+            <!-- 1. 날짜, 할 일 목록 -->
+            <ul class="to_do_list">
+                <li>
+                    <a href="#" class="date">05.23</a>
+                    <a href="#" class="contents">피그마 복습하기</a>
+                </li>
+                <li>
+                    <a href="#" class="date">05.23</a>
+                    <a href="#" class="contents">html, css 복습하기</a>
+                </li>
+                <li>
+                    <a href="#" class="date">05.23</a>
+                    <a href="#" class="contents">포토샵 복습하기</a>
+                </li>
+                <li>
+                    <a href="#" class="date">05.23</a>
+                    <a href="#" class="contents">소설 쓰기</a>
+                </li>
+            </ul>
+            <!-- 2. 글쓰기 버튼 -->
+            <a href="#" class="write_popup_btn"><img src="./images/write_popup_btn.svg" alt="글쓰기"></a>
+            <!-- 3. 글쓰기 버튼 클릭 시 실행 화면(입력 화면) -->
+            <div class="write_popup">
+                <p>add a new task</p>
+                <a href="#" class="write_btn"><img src="./images/write_btn.svg" alt="글 등록하기"></a>
+            </div><!-- e:write_popup -->
+        </main>
+    </div><!-- e:wrap -->
+</body>
+</html>
