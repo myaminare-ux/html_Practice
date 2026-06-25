@@ -1,0 +1,115 @@
+/* demon_slayer.css */
+#movie {
+    width:750px;
+    height:max-content;
+    padding: 20px 20px 0 20px;
+    background-color:#000;
+}
+/* ==================== 1행 */
+#movie > .left {}
+#movie > .left > .back_btn {
+    margin:0 10px 0 0;
+}
+#movie > .left > .home_btn {}
+#movie > .right {}
+#movie > .right > .share_btn {
+    margin:0 10px 0 0;
+}
+#movie > .right > .bookmark_btn {}
+/* ==================== 2행 */
+#movie > .title {
+    padding:370px 0 0 0;
+}
+#movie > .title > h1 {
+    font-family:'Pretendard', '맑은 고딕';
+    font-weight:700;
+    font-size:1.75em;
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#movie > .title > .use_grade {}
+/* ==================== 3행 */
+#movie > .info {
+    margin-bottom:30px;
+}
+#movie > .info > .date {
+    font-family:'Pretendard', '맑은 고딕';
+    font-size:1.25em;
+    color:#fff;
+    margin:0 20px 0 0;
+    border-right:1px solid #555555;
+}
+#movie > .info > .time {
+    font-family:'Pretendard', '맑은 고딕';
+    font-size:1.25em;
+    color:#fff;
+    margin:0 20px 0 20px;
+    border-right:1px solid #555555;
+}
+#movie > .info > .category {
+    font-family:'Pretendard', '맑은 고딕';
+    font-size:1.25em;
+    color:#fff;
+    margin:0 0 0 20px;
+    border-right:1px solid #555555;
+}
+/* ==================== 4행 */
+#movie > .rate {
+    padding:0 0 50px 0;
+    border-bottom:1px solid #8B8B8B;
+}
+#movie > .rate > .rate_info {}
+#movie > .rate > .rate_info > .sell {}
+#movie > .rate > .rate_info > .sell > p {
+    margin:0 10px 0 0;
+}
+#movie > .rate > .rate_info > .sell > p > img {}
+#movie > .rate > .rate_info > .sell > .sell_info {
+    font-family:'Pretendard', '맑은 고딕';
+    letter-spacing:-0.02em;
+}
+#movie > .rate > .rate_info > .sell > .sell_info > .book_sell {
+    color:#8B8B8B;
+    margin:0 0 10px 0;
+}
+#movie > .rate > .rate_info > .sell > .sell_info > .book_num {
+    color:#fff;
+    font-weight:700;
+    font-size:1.25em;
+}
+#movie > .rate > .rate_info > .audience {}
+#movie > .rate > .rate_info > .audience > p {
+    margin:0 10px 0 0;
+}
+#movie > .rate > .rate_info > .audience > p > img {}
+#movie > .rate > .rate_info > .audience > .audience_info {
+    font-family:'Pretendard', '맑은 고딕';
+    letter-spacing:-0.02em;
+}
+#movie > .rate > .rate_info > .audience > .audience_info > .book_audience {
+    color:#8B8B8B;
+    margin:0 0 10px 0;
+}
+#movie > .rate > .rate_info > .audience > .audience_info > .book_num {
+    color:#fff;
+    font-weight:700;
+    font-size:1.25em;
+}
+#movie > .rate > .rate_info > .egg {}
+#movie > .rate > .rate_info > .egg > p {
+    margin:0 10px 0 0;
+}
+#movie > .rate > .rate_info > .egg > p > img {}
+#movie > .rate > .rate_info > .egg > .egg_info {
+    font-family:'Pretendard', '맑은 고딕';
+    letter-spacing:-0.02em;
+}
+#movie > .rate > .rate_info > .egg > .egg_info > .book_egg {
+    color:#8B8B8B;
+    margin:0 0 10px 0;
+}
+#movie > .rate > .rate_info > .egg > .egg_info > .book_num {
+    color:#fff;
+    font-weight:700;
+    font-size:1.25em;
+}
