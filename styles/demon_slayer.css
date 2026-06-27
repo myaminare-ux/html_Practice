@@ -1,24 +1,45 @@
 /* demon_slayer.css */
+body {
+    background-color:#fff;
+    height:200vh;
+    width:200vh;
+}
 #movie {
     width:750px;
-    height:max-content;
-    padding: 20px 20px 0 20px;
+    height:866px;
     background-color:#000;
 }
 /* ==================== 1행 */
-#movie > .left {}
-#movie > .left > .back_btn {
+#movie > .top_g {
+    background-image:url(../images/demon_slayer_bg.jpg);
+    background-color:aqua;
+    width:100%;
+    height:470px;
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:0 -190px;
+    display:flex;
+    padding:20px 20px 0 20px;
+}
+#movie > .top_g > .left {
+    margin:0 572px 0 0;
+    display:flex;
+}
+#movie > .top_g > .left > .back_btn {
     margin:0 10px 0 0;
 }
-#movie > .left > .home_btn {}
-#movie > .right {}
-#movie > .right > .share_btn {
+#movie > .top_g > .left > .home_btn {}
+#movie > .top_g > .right {
+    display:flex;
+}
+#movie > .top_g > .right > .share_btn {
     margin:0 10px 0 0;
 }
-#movie > .right > .bookmark_btn {}
+#movie > .top_g > .right > .bookmark_btn {}
 /* ==================== 2행 */
 #movie > .title {
-    padding:370px 0 0 0;
+    display:flex;
+    padding:0 0 0 20px;
 }
 #movie > .title > h1 {
     font-family:'Pretendard', '맑은 고딕';
@@ -26,11 +47,13 @@
     font-size:1.75em;
     letter-spacing:-0.02em;
     color:#fff;
+    margin:0 4px 0 0;
 }
 #movie > .title > .use_grade {}
 /* ==================== 3행 */
 #movie > .info {
-    margin-bottom:30px;
+    display:flex;
+    padding:20px 0 20px 20px;
 }
 #movie > .info > .date {
     font-family:'Pretendard', '맑은 고딕';
@@ -51,15 +74,20 @@
     font-size:1.25em;
     color:#fff;
     margin:0 0 0 20px;
-    border-right:1px solid #555555;
 }
 /* ==================== 4행 */
 #movie > .rate {
     padding:0 0 50px 0;
     border-bottom:1px solid #8B8B8B;
 }
-#movie > .rate > .rate_info {}
-#movie > .rate > .rate_info > .sell {}
+#movie > .rate > .rate_info {
+    display:flex;
+    margin:20px 0 0 20px  ;
+}
+#movie > .rate > .rate_info > .sell {
+    display:flex;
+    margin:0 155px 0 0;
+}
 #movie > .rate > .rate_info > .sell > p {
     margin:0 10px 0 0;
 }
@@ -77,7 +105,10 @@
     font-weight:700;
     font-size:1.25em;
 }
-#movie > .rate > .rate_info > .audience {}
+#movie > .rate > .rate_info > .audience {
+    display:flex;
+    margin:0 155px 0 0;
+}
 #movie > .rate > .rate_info > .audience > p {
     margin:0 10px 0 0;
 }
@@ -95,7 +126,9 @@
     font-weight:700;
     font-size:1.25em;
 }
-#movie > .rate > .rate_info > .egg {}
+#movie > .rate > .rate_info > .egg {
+    display:flex
+}
 #movie > .rate > .rate_info > .egg > p {
     margin:0 10px 0 0;
 }
@@ -112,4 +145,22 @@
     color:#fff;
     font-weight:700;
     font-size:1.25em;
+}
+/* ========================= 5행 */
+#movie > .dis {}
+#movie > .dis > .dis_title {
+    font-family:'Pretendard', '맑은 고딕';
+    font-weight:700;
+    font-size:1.625em;
+    letter-spacing:-0.02em;
+    color:#fff;
+    margin:20px 0 20px 20px;
+}
+#movie > .dis > .dis_content {
+    font-family:'Pretendard', '맑은 고딕';
+    font-size:1.125em;
+    line-height:1.5;
+    letter-spacing:-0.02em;
+    color:#d4d4d4;
+    margin:0 0 0 20px;
 }
