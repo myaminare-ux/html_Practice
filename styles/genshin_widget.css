@@ -1,0 +1,168 @@
+/* genshin_widget.css */
+body {
+    width:200vh;
+    height:200vh;
+    background-color:#f5f5f5;
+}
+#widget {
+    width:820px;
+    height:400px;
+    background-image:url(../images/columbina_poster.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-color:skyblue;
+    border-radius:50px;
+}
+/* ============================== 1행 */
+#widget > .top_g {
+    padding:20px 30px;
+    display:flex;
+    margin-bottom:226px;
+}
+#widget > .top_g > .left_g {
+    margin-right:271px;
+}
+#widget > .top_g > .left_g > .day {
+    font-family:'Pretensard', 'sans-serif';
+    font-size:1.5em;
+    letter-spacing:-0.02em;
+    color:#fff;
+    margin-bottom:10px;
+}
+#widget > .top_g > .left_g > .date {
+    font-family:'Pretensard', 'sans-serif';
+    font-size:2.5em;
+    font-weight:500;
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#widget > .top_g > .left_g > .date > .mon {color:#fff;}
+#widget > .top_g > .left_g > .date > .dat {color:#fff;}
+#widget > .top_g > .right_g {
+    display:flex;
+}
+#widget > .top_g > .right_g > .search {
+    background-color:rgba(0, 0, 0, 0.5);
+    width:280px;
+    height:max-content;
+    border-radius:26px;
+    padding:10px 20px;
+    align-items:center;
+    text-align:center;
+    display:inline-block;
+    margin-right:20px;
+}
+#widget > .top_g > .right_g > .search > span {
+    font-family:'Pretensard', 'sans-serif';
+    font-size:1.5em;
+    letter-spacing:-0.02em;
+    color:#d9d9d9;
+    margin-right:125px;
+}
+#widget > .top_g > .right_g > .search > .serch_btn {}
+#widget > .top_g > .right_g > .setting_btn {
+    margin-right:20px;
+}
+#widget > .top_g > .right_g > .setting_btn > img {}
+#widget > .top_g > .right_g > .refresh_btn {}
+#widget > .top_g > .right_g > .refresh_btn > img {}
+/* ============================== 2행 */
+#widget > .bottom_g {
+    display:flex;
+}
+#widget > .bottom_g > .b_left_g {
+    display:flex;
+    margin-right:193px;
+}
+#widget > .bottom_g > .b_left_g > .resin {
+    display:flex;
+    align-items:center;
+    margin-right:50px;
+}
+#widget > .bottom_g > .b_left_g > .resin > .thum {
+    width:60px;
+    height:60px;
+    margin-right:10px;
+}
+#widget > .bottom_g > .b_left_g > .resin > .thum > img {width:100%;}
+#widget > .bottom_g > .b_left_g > .resin > .info_g {
+    font-family:'Pretensard', 'sans-serif';
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .resin > .info_g > .capacity {
+    font-weight:700;
+    font-size:1.375em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .resin > .info_g > .capacity > span {
+    font-weight:700;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .resin > .info_g > .time {
+    font-size:1.375em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .resin > .info_g > .time > .hour {
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .resin > .info_g > .time > .min {
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .currency {
+    display:flex;
+    margin-right:10px;
+    align-items:center;
+}
+#widget > .bottom_g > .b_left_g > .currency > .thum {
+    width:60px;
+    height:60px;
+}
+#widget > .bottom_g > .b_left_g > .currency > .thum > img {width:100%;}
+#widget > .bottom_g > .b_left_g > .currency > .info_g {
+    font-family:'Pretensard', 'sans-serif';
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .currency > .info_g > .capacity {
+    font-weight:700;
+    font-size:1.375em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .currency > .info_g > .capacity > span {
+    color:#fff;
+    font-weight:700;
+}
+#widget > .bottom_g > .b_left_g > .currency > .info_g > .time {
+    font-family:'Pretensard', 'sans-serif';
+    font-size:1.357em;
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_left_g > .currency > .info_g > .time > .hour {color:#fff;}
+#widget > .bottom_g > .b_left_g > .currency > .info_g > .time > .min {color:#fff;}
+#widget > .bottom_g > .b_right_g {
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+#widget > .bottom_g > .b_right_g > .thum {
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+#widget > .bottom_g > .b_right_g > .thum > img {width:100%}
+#widget > .bottom_g > .b_right_g > .check_in {
+    display:flex;
+}
+#widget > .bottom_g > .b_right_g > .check_in > .title {
+    font-family:'Pretensard', 'sans-serif';
+    font-size:1.25em;
+    letter-spacing:-0.02em;
+    color:#fff;
+}
+#widget > .bottom_g > .b_right_g > .check_in > .check_in_btn {
+    width:24px;
+    height:24px;
+}
+#widget > .bottom_g > .b_right_g > .check_in > .check_in_btn > img {width:100%}
