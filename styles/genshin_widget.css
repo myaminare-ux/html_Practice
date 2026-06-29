@@ -12,16 +12,18 @@ body {
     background-repeat:no-repeat;
     background-color:skyblue;
     border-radius:50px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-between;
+    padding:20px 30px;
 }
 /* ============================== 1행 */
 #widget > .top_g {
-    padding:20px 30px;
     display:flex;
-    margin-bottom:226px;
+    flex-flow:row nowrap;
+    justify-content:space-between;
 }
-#widget > .top_g > .left_g {
-    margin-right:271px;
-}
+#widget > .top_g > .left_g {}
 #widget > .top_g > .left_g > .day {
     font-family:'Pretensard', 'sans-serif';
     font-size:1.5em;
@@ -40,6 +42,7 @@ body {
 #widget > .top_g > .left_g > .date > .dat {color:#fff;}
 #widget > .top_g > .right_g {
     display:flex;
+    align-items:center;
 }
 #widget > .top_g > .right_g > .search {
     background-color:rgba(0, 0, 0, 0.5);
@@ -51,13 +54,15 @@ body {
     text-align:center;
     display:inline-block;
     margin-right:20px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
 }
 #widget > .top_g > .right_g > .search > span {
     font-family:'Pretensard', 'sans-serif';
     font-size:1.5em;
     letter-spacing:-0.02em;
     color:#d9d9d9;
-    margin-right:125px;
 }
 #widget > .top_g > .right_g > .search > .serch_btn {}
 #widget > .top_g > .right_g > .setting_btn {
@@ -69,10 +74,10 @@ body {
 /* ============================== 2행 */
 #widget > .bottom_g {
     display:flex;
+    justify-content:space-between;
 }
 #widget > .bottom_g > .b_left_g {
     display:flex;
-    margin-right:193px;
 }
 #widget > .bottom_g > .b_left_g > .resin {
     display:flex;
